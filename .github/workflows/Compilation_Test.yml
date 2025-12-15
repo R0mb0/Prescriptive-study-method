@@ -15,7 +15,7 @@ jobs:
           working_directory: PrescriptiveStudyMethod
           root_file: PrescriptiveStudyMethod.tex
       - name: Upload compiled file
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with: 
           name: Prescriptive_Study_Method
           path: PrescriptiveStudyMethod/PrescriptiveStudyMethod.pdf
